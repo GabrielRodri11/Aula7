@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div class="bloquinho"></div>
+  <div class="bloquinho"></div>
+  <div class="bloquinho"></div>
+  <div class="blocao"></div>
+  <div class="blocao"></div>
+  <div class="blocao"></div>
+
+
+  <script>
+    console.log("script rodando liso")
+
+    const div = document.getElementsByTagName("div");
+
+    for (let index  = 0; index < div.length; index++) {
+      div[index].textContent  =  index
+      
+    }
+
+
+  </script>
+
+</body>
+
+</html>
